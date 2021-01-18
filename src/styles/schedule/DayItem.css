@@ -1,0 +1,21 @@
+.eventContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.timeContainer {
+    align-self: flex-start;
+}
+
+.middleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.outerEventContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
