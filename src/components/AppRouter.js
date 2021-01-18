@@ -22,7 +22,7 @@ import {
         <Router>
           <div>
             <Navbar bg="light" expand="lg">
-              <Navbar.Brand href="#home">NYS 2020</Navbar.Brand>
+              <Navbar.Brand href="/">DCON 2020</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -36,7 +36,7 @@ import {
             </Navbar>
             <div className="bannerContainer">
               <img src={banner} style={{width: '100%'}}/>
-              <div className="countdown"><Countdown date={new Date('12/04/2020')} /> Days till NYS 2020</div>
+              <div className="countdown"><Countdown date={new Date('3/26/2021')} /> Days till DCON 2020</div>
             </div>
             {/* A <Switch> looks through its children <Route>s and
                 renders the first one that matches the current URL. */}

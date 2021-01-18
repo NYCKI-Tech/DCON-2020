@@ -36,9 +36,10 @@ nav {
   font-size: 40px;
   position: absolute;
   bottom: 10px;
+  left: 15px;
   text-align: center;
-  color: #e46f26;
-  font-size: 3em;
+  color: white;
+  font-size: 2em;
   text-shadow: 10px 10px 30px black;
 
 }
@@ -59,37 +60,38 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-right: 10%;
+  padding-bottom: 15px;
 }
 
 .registerButton {
   border-style: none;
   background-color: transparent;
   color: white;
-  font-size: 5em;
+  font-size: 2em;
 }
 
 .outerContainer {
-  width: 80%;
+  width: 68%;
+  background-color: black;
   margin: auto;
 }
 
 body {  
-  font-family: 'Anton', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 1.5em;
+  background-image: url('media/photos/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: lightgray;
-}
 
 .themeReveal{
   width: 100%;
-  background-image: url('media/photos/galaxy\ sky.jpg');
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  height: 600px;
 }
 
 .logo {
@@ -122,7 +124,6 @@ body {
 
 .involvementOpportunities {
   width: 100%;
-  background-image: url('media/photos/galaxy\ sky.jpg');
   display: flex;
   flex-direction: column;
   color: white;
@@ -172,7 +173,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-image: url('media/photos/galaxy\ sky.jpg');
 }
 
 .recapVideoIframe{
@@ -182,7 +182,7 @@ body {
 
 .themeRevealIframe {
   width: 80%;
-  height: 500px;
+  height: 600px;
 
 }
 
@@ -243,6 +243,13 @@ body {
 
 .gcalEventName:hover {
   color: lightgray;
+}
+
+.pageContainer {
+  color: white;
+  background-color: black;
+  padding: 20px;
+
 }
 
 @media only screen and (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 

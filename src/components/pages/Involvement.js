@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Involvement = () => {
-    return(<div>
+    return(<div className="pageContainer">
         <p style={{width: '50%', margin: 'auto', 'text-align':'left'}}>
             <h1 style={{'text-align':'center'}}>Team Leader Application</h1>             
             A Team Leader is one of the most important parts of any convention, NYS being no different. We're looking for people who are 
