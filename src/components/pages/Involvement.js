@@ -16,11 +16,14 @@ const Involvement = () => {
           <h1 style={{'text-align':'center'}}>Lip Sync Battle Signup</h1>
           Coming soon
         </p>
-        <p>
+        <p style={{width: '50%', margin: 'auto', 'text-align':'left'}}>
           <h1 style={{'text-align':'center'}}>Workshop Application</h1>
-          Coming soon
+          Are you interested in sharing your unique experience and skills with others? Host a workshop at DCON 2021!
+Hosting a workshop at DCON is a fantastic opportunity to train and share useful ideas, techniques, tools, mindsets, etc. The active engagement of the workshop facilitator can empower our members to gain confidence in their abilities while developing useful actions that can be implemented onto their clubs.
+Apply by Sat, Feb 20.</p>
+        <p style={{'margin-top': '1.2%'}}>
+           <button onClick={(()=>{window.location.href="https://bit.ly/DCONAwards"})}>Apply here!</button>
         </p>
-
     </div>);
 }
 

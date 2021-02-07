@@ -9,6 +9,7 @@ import {
   import Schedule from './pages/Schedule';
   import Contact from './pages/Contact';
   import Home from './pages/Home';
+  import Awards from './pages/Awards'
   import Involvement from './pages/Involvement';
   import banner from '../media/photos/banner.png';
   import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
@@ -30,6 +31,7 @@ import {
                   <Nav.Link href="/calendar">Calendar</Nav.Link>
                   <Nav.Link href="/schedule">Schedule</Nav.Link>
                   <Nav.Link href="/involvement">Involvement Opportunities</Nav.Link>
+                  <Nav.Link href="/awards">Awards</Nav.Link>
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
@@ -52,6 +54,9 @@ import {
               </Route>
               <Route path="/contact">
                 <Contact />
+              </Route>
+              <Route path="/awards">
+                <Awards />
               </Route>
               <Route path="/">
                 <Home />
