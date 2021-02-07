@@ -252,6 +252,22 @@ body {
 
 }
 
+.positionContainer {
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.positionBody {
+    font-size: 19px;
+    display: inline;
+}
+
+.positionImage {
+    float: left;
+    padding-right: 25px;
+}
+
 @media only screen and (max-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
   .tagline {
     font-size: 13px;

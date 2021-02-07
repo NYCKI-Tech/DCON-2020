@@ -11,6 +11,7 @@ import {
   import Home from './pages/Home';
   import Awards from './pages/Awards'
   import Involvement from './pages/Involvement';
+  import Elections from './pages/Elections';
   import banner from '../media/photos/banner.png';
   import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
   import Countdown from 'react-countdown';
@@ -32,6 +33,7 @@ import {
                   <Nav.Link href="/schedule">Schedule</Nav.Link>
                   <Nav.Link href="/involvement">Involvement Opportunities</Nav.Link>
                   <Nav.Link href="/awards">Awards</Nav.Link>
+                  <Nav.Link href="/elections">Elections</Nav.Link>
                   <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
@@ -51,6 +53,9 @@ import {
               </Route>
               <Route path="/involvement">
                 <Involvement />
+              </Route>
+              <Route path="/elections">
+                <Elections />
               </Route>
               <Route path="/contact">
                 <Contact />
