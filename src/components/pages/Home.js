@@ -25,8 +25,9 @@ const Home = () => {
             <div className="registerContainer">
                 <button
                     className="registerButton"
+                    onClick={()=>{window.location.href='bit.ly/NYDCON2021'}}
                 >
-                    Registration Coming Soon...
+                    Register Now!
                 </button>
             </div>
 
